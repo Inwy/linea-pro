@@ -1,3 +1,4 @@
 ios/build
+ios/build/*
 .DS_Store
 tmp
