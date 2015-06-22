@@ -14,5 +14,32 @@
   "homepage": "https://github.com/inwy/linea-pro",
   "bugs": {
     "url": "https://github.com/inwy/linea-pro/issues"
-  }
+  },
+  "files": [
+    "appc-npm",
+    "ios/dist/nl.inwy.LineaPro-iphone-0.1.0.zip"
+  ],
+  "appc-npm": {
+    "unzip": [
+      "ios/dist/nl.inwy.LineaPro-iphone-0.1.0.zip"
+    ],
+    "tiapp": [
+      {
+        "name": "nl.inwy.LineaPro",
+        "version": "0.1.0",
+        "platform": "iphone"
+      }
+    ],
+    "target": {
+      "titanium": "/",
+      "alloy": "/"
+    }
+  },
+  "keywords": [
+    "alloy",
+    "appc-npm",
+    "appcelerator",
+    "ti-module",
+    "titanium"
+  ]
 }
